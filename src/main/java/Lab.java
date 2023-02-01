@@ -8,7 +8,7 @@ public class Lab {
      * a method such as Math.pow() immediately. How does this work?
      *
      * The Math class contains static methods, which means that it does not need to be instantiated for a developer
-     * to use the contained methods. They are global to the entire program. This is very important to understand,
+/workspace/jfellis314-Math/src/test     * to use the contained methods. They are global to the entire program. This is very important to understand,
      * as new coders often misuse the static keyword. So, static methods and variables of Math are associated with the
      * Math class rather than a Math object.
      *
@@ -20,6 +20,6 @@ public class Lab {
      * @return return a^b using the pow() method of the Math class.
      */
     public double mathPow(double a, double b){
-        return 0;
+        return Math.pow(a,b);
     }
 }
